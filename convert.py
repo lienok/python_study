@@ -30,7 +30,7 @@ print
 print ("You want to convert %s %s ?") % (value, units)
 answer = raw_input("Enter yes or y to continue: ") 
 if not answer.startswith("y") :
-	sys.exit("You choose NOT continue. We will not convert it for you! ")
+	sys.exit("You choose TO NOT continue. We will not convert it for you! ")
 	
 # make conversion according to the enterd value
 if (unitsEntered == cm):	
