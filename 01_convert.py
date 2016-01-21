@@ -21,7 +21,7 @@ elif (units.lower().strip() == inch) :
 	unitsEntered = inch
 	unitsReturn = cm
 else :
-	exit("Wrong inputs! Expected number and units. Example: 3 cm or 4 inch !")
+	exit("Wrong inputs! Expected number and units. Example: 3 cm or 4 inch !")  #exit program with the message
 
 print
 print ("You want to convert %s %s ?") % (value, units)

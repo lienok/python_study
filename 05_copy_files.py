@@ -20,5 +20,5 @@ out_file.write(indata)
 
 print "Alright, all done."
 
-#close both file objects
+#close file 
 out_file.close()
