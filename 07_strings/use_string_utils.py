@@ -1,4 +1,4 @@
-import string_utils_07 as utils
+import string_utils as utils
 #from string_utils_07 import *   - you don't neet to use utils anymore! :) 
 
 sentence = "All good things come to those who wait."
